@@ -13,3 +13,5 @@ Maliyet Hesaplama: Seçilen araç ve kiralama süresine göre toplam maliyet hes
 Profil Yönetimi: Kullanıcılar profil bilgilerini görüntüleyebilir ve güncelleyebilir, ayrıca geçmiş ve mevcut rezervasyonlarına erişebilirler.
 Site, araç kiralama deneyimini gerçek hayata olabildiğince yakın bir şekilde sunmak amacıyla tasarlanmıştır. Ödeme kısmı simülasyon olarak işlev görür, bu nedenle gerçek bir ödeme alınmaz. Bu sayede kullanıcılar, rezervasyon süreçlerini tam olarak deneyimleyebilirler.
 
+Önemli: Veritabanı dosyası "arac_kiralama.sql" isimli dosyadır.
+
