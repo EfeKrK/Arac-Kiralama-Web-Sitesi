@@ -1,0 +1,39 @@
+.detaylar {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px 0px;
+}
+
+.detaylar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.detaylar ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+}
+
+.detaylar ul li.active {
+    background-color: #ffad42;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.detaylar ul li:last-child {
+    margin-right: 0;
+}
+
+.container2
+{
+    margin-top: 70px;
+}
+
+.containertop{
+    margin-top: 50px;
+}

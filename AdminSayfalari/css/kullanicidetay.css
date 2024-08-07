@@ -1,0 +1,77 @@
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.sidebar .menu ul li.cikisyap {
+    position: absolute; /* Position it absolutely within the sidebar */
+    bottom: 15px; /* Adjust as needed */
+    width: calc(100% - 30px); /* Ensure it has full width minus padding */
+    
+    margin-bottom: 20px;
+}
+
+/* Güncelle butonunu yeşil yap */
+form input[name="update"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form input[name="update"]:hover {
+    background-color: #45a049;
+}
+
+/* Sil butonunu kırmızı yap */
+form input[name="delete"] {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form input[name="delete"]:hover {
+    background-color: #d32f2f;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+}
+
+form input[type="hidden"] {
+    display: none;
+}

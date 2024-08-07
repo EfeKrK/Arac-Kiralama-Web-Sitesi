@@ -1,0 +1,65 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Genel stil */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form stilleri */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sidebar .menu ul li.cikisyap {
+    position: absolute; /* Position it absolutely within the sidebar */
+    bottom: 15px; /* Adjust as needed */
+    width: calc(100% - 30px); /* Ensure it has full width minus padding */
+    
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 50%;   
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+#icerik1
+{
+    height: 100px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #2bff00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #82ff5d;
+}
+

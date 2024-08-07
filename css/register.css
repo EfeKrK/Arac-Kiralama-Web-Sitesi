@@ -1,0 +1,125 @@
+
+    .ustkisim {
+    background-image: url('arkaplan.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+    .navbar {
+        
+        margin-top: -2px ;
+
+        width: 100%;
+        background-color: rgba(13, 24, 11, 0.7); /* Saydamlık için rgba kullanımı */
+        font-weight: bold;
+        color: black;
+        background-image: url('arkaplan.png'); /* Navbarın arkasındaki resim */
+        background-size: cover; /* Resmin tam olarak görünmesini sağlar */
+        background-attachment: fixed;
+    }
+    
+    .ayrac{
+        font-size: 30px;
+    margin: 0px 20px;
+    }
+
+   body {
+            background-image: url("arkaplanimg.jpg"); /* Arka plan resminin URL'sini belirtin */
+            background-repeat: no-repeat; /* Arka plan resminin tekrar etmemesini sağlar */
+            background-size: cover; /* Arka plan resminin body'ye tam sığdırılmasını sağlar */
+            background-attachment: fixed;
+        }
+
+    .container {
+    width: 420px;
+    margin: auto;
+    background-color: rgb(63, 85, 136, 0.8);
+    color: rgb(56, 44, 44);
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: -47%;
+    transition: transform 0.5s ease-in-out; /* Geçiş efekti için transform özelliği, daha yavaş ve yumuşak */
+    }
+
+    .container:hover {
+        transform: scale(1.05); /* Mouse ile üstüne gelindiğinde büyüme efekti */
+    }
+
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px; /* Başlık altına biraz boşluk ekleyelim */
+}
+.container .input-box{
+    position: relative; /* Eklendi */
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border:none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Renk değeri düzeltildi */
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 0 45px 0 20px; /* Sağa ve sola padding eklendi */
+}
+.input-box input::placeholder{
+    color: black;
+}
+.input-box i{
+    position: absolute;
+    right:20px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:  20px;
+}
+.container .btn{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor:pointer;
+    font-size:16px;
+    color: rgb(203,165,108);
+    font-weight: 600;
+    margin-top: 20px; /* Düğme ile alan arasına biraz boşluk ekleyelim */
+
+}
+
+.logo {
+            
+    margin-left: -50px;
+    width: 450px; /* Resmin genişliği */
+    height: auto; /* Resmin orijinal en-boy oranını korur */
+    
+
+}
+
+button.btn.btn-primary.btn-block:hover {
+    background-color: #5cb85c;
+    color: #fff;
+}
+.container .header {
+    display:flexbox;
+    align-items: center;
+ 
+    margin-bottom: 40px;
+    margin-top: -120px;
+    
+}
+
+.baslik{
+    color: rgb(203,165,108);
+}

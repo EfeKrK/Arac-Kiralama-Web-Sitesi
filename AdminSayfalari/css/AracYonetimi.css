@@ -1,0 +1,156 @@
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.content .card-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.BlogYonetimi {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.sidebar .menu ul li.cikisyap {
+    position: absolute; /* Position it absolutely within the sidebar */
+    bottom: 15px; /* Adjust as needed */
+    width: calc(100% - 30px); /* Ensure it has full width minus padding */
+    
+    margin-bottom: 20px;
+}
+
+.content .card {
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    border: 2px solid #ff9100;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.content .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.content .card .card-content {
+    padding: 10px;
+}
+
+.content .card .card-content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.content .card .card-content p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.content .card .card-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.content .card .card-content a:hover {
+    text-decoration: underline;
+}
+
+.content .card .card-content button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #ff9100;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+.content .card .card-content button:hover {
+    background-color: #ff7300;
+}
+
+.content .delete-button {
+    display: inline-blockblock;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+.content .delete-button:hover {
+    background-color: #c82333;
+}
+
+.content .add-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+.content .add-button:hover {
+    background-color: #218838;
+}
+
+.content .checkbox {
+    transform: scale(1.5);
+    margin-right: 5px;
+}
+
+
+/* Yukarıdaki CSS kodları */
+
+.edit-button {
+    display: block;
+    width: calc(100% - 20px); /* Kartın genişliği kadar, kenar boşlukları çıkarılarak */
+    padding: 10px; /* Butonun içeriğini hizalamak için */
+    background-color: #ff9100; /* Arka plan rengi */
+    color: #fff;
+    border: none;
+    border-radius: 0; /* Kenar yuvarlatmasını kaldır */
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+    text-align: center; /* Metni ortala */
+    transition: background-color 0.3s;
+}
+
+.edit-button:hover {
+    background-color: #ff7300; /* Hover rengi */
+}
+
+.card-content {
+    position: relative; /* Kart içeriğini göreceli olarak ayarla */
+}
+
+

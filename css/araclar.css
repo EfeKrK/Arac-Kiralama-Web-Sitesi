@@ -1,0 +1,115 @@
+/* Genel stiller */
+body {
+    padding-top: 60px; /* Navbar'ı gölgelememesi için */
+    margin-bottom: 100px; /* Footer'ın altında boşluk bırak */
+}
+
+.container {
+    padding-top: 3px; /* Container üst boşluk */
+}
+
+.containertop{
+    margin-top: -50px;
+    
+}
+
+/* Kart stilleri */
+.card {
+    background-color: #f8f9fa; /* Kart arka plan rengi */
+    border: 3px solid #ff7b00; /* Kart kenar çizgisi */
+    border-radius: 10px; /* Kart köşe yuvarlaklığı */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kart gölge */
+    transition: all 0.3s ease; /* Kart geçiş efekti */
+    margin-bottom: 20px; /* Kartlar arasındaki boşluk */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Hover efekti */
+}
+
+.card-body {
+    flex: 1; /* Kart gövdesinin esnek olması */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Başlık font büyüklüğü */
+    font-weight: bold; /* Başlık font kalınlığı */
+    color: #000000; /* Başlık rengi */
+    margin-bottom: 10px; /* Başlık alt boşluk */
+}
+
+.card-label {
+    font-weight: bold; /* Etiket font kalınlığı */
+    color: #000000; /* Etiket rengi */
+}
+
+.card-text {
+    color: #000000; /* Metin rengi */
+    margin-bottom: 0.75rem; /* Metin alt boşluk */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Görsel köşe yuvarlaklığı */
+    border-top-right-radius: 10px; /* Görsel köşe yuvarlaklığı */
+    width: 100%; /* Görsel genişlik */
+    height: 200px; /* Görsel sabit yükseklik */
+    object-fit: contain; /* Görseli sığdır */
+}
+
+/* Buton stilleri */
+.btn-primary {
+    background-color: #ffad42; /* Arka plan rengi */
+    color: #fff; /* Yazı rengi */
+    border: none; /* Kenar çizgisi */
+    border-radius: 5px; /* Köşe yuvarlaklığı */
+    padding: 10px 20px; /* Buton iç içe içerik */
+    text-align: center; /* Metin hizalama */
+    text-decoration: none; /* Metin altı çizgisi */
+    display: inline-block; /* Inline blok öğesi */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+.btn-primary:hover {
+    background-color: #ff7b00; /* Hover arka plan rengi */
+    color: #fff; /* Hover yazı rengi */
+    text-decoration: none; /* Hover metin altı çizgisi */
+}
+
+.detaylar {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.detaylar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.detaylar ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+}
+
+
+.detaylar ul li.active {
+    background-color: #ffad42;
+    color: rgb(0, 0, 0);
+}
+
+.detaylar ul li:last-child {
+    margin-right: 0;
+}
+
+.card-footer {
+    background-color: #f8f9fa; /* Kart alt kısmı arka plan rengi */
+    border-top: 1px solid #ddd; /* Kart alt kısmı kenar çizgisi */
+    text-align: center; /* Metin hizalama */
+    padding: 10px 0; /* Kart alt kısmı iç boşluk */
+}

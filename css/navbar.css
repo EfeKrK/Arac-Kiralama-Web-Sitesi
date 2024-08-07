@@ -1,0 +1,31 @@
+body {
+    padding-top: 50px; /* Navbar'ı gölgelememesi için */
+    margin-bottom: 60px;
+    background-color: white; /* Arka plan rengi */
+    color: black; /* Metin rengi */
+}
+
+
+.navbar {
+    background-color: #ffad42; /* Hexadecimal renk değeri */
+    height: 100px;
+    padding: 10px; /* Sağ ve sol boşluk */
+    font-weight: bold;
+}
+
+/* Navbar linklerinin stilleri */
+.navbar-nav .nav-link {
+    color: #0a0a00; /* Yazı rengi */
+    font-weight: bold;
+    font-size: 18px; /* Yazı boyutunu belirle */
+    text-align: right;
+}
+
+/* Navbar linklerinin hover stilleri */
+.navbar-nav .nav-link:hover {
+    color: white; /* Hover rengi */
+   
+}
+.welcome-message {
+    color: black; /* İstediğiniz renk kodunu buraya yazın */
+}       

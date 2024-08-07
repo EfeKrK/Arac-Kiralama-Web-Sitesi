@@ -1,0 +1,54 @@
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.content th, .content td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.content th {
+    background-color: #f2f2f2; /* Sadece başlık satırlarının arka planı grimsi */
+    color: #333;
+}
+
+.content tr:not(:first-child) td {
+    background-color: #fff; /* Diğer satırların arka planı beyaz */
+}
+
+.RezervasyonYonetimi {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 24px; /* Yazı boyutunu 24 piksel olarak ayarla */
+}
+
+.content tr:hover {
+    background-color: #f9f9f9; /* Satırın üzerine gelince arka plan rengini hafif değiştir */
+    cursor: pointer; /* Satırın üzerine gelince imleci tıklama işaretine dönüştür */
+}
+
+.content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar .menu ul li.cikisyap {
+    position: absolute; /* Position it absolutely within the sidebar */
+    bottom: 15px; /* Adjust as needed */
+    width: calc(100% - 30px); /* Ensure it has full width minus padding */
+    
+    margin-bottom: 20px;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content tr:hover td {
+    background-color: #f0f0f0; /* Satırın arka plan rengini hafif değiştir */
+}

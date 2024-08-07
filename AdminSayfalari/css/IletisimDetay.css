@@ -1,0 +1,48 @@
+.content {
+    max-width: 600px;
+    margin: 50px auto 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.content:hover {
+    transform: scale(1.01);
+}
+
+.content h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.message-details {
+    margin-bottom: 20px;
+}
+
+
+.message-details p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.message-details .message {
+    border: 2px solid #ff9100;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+.sidebar .menu ul li.cikisyap {
+    position: absolute; /* Position it absolutely within the sidebar */
+    bottom: 15px; /* Adjust as needed */
+    width: calc(100% - 30px); /* Ensure it has full width minus padding */
+    
+    margin-bottom: 20px;
+}

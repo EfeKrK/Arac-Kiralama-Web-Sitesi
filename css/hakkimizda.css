@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* General styles */
+body {
+    
+    
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+h2 {
+    color: black;
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+#ArkaPlanVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container.mt-5 {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+
+    
+}
+
+.row {
+    background-color: rgba(197, 197, 197, 0.5); /* Semi-transparent background color */
+    border-radius: 50px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+    border: 2px orange;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Hover effect */
+.row:hover {
+    transform: scale(1.01);
+}

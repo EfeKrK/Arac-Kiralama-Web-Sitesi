@@ -1,0 +1,147 @@
+
+.welcome-message {
+    color: black; /* İstediğiniz renk kodunu buraya yazın */
+}       
+
+
+
+.main-container {
+    background-color: transparent; /* Ana içeriğin arka planını şeffaf yap */
+    font-weight: bold;
+    
+}
+
+
+/* Detaylar */
+.detaylar {
+    background-color: #eee; /* Detaylar arka plan rengi */
+    padding: 10px 0; /* Detaylar içerik boşluğu */
+    
+}
+
+.detaylar ul {
+    list-style: none; /* Liste işaretlerini kaldır */
+    padding-left: 0; /* Liste içerik sol boşluğu */
+}
+
+.detaylar ul li {
+    color: #333; /* Detaylar metin rengi */
+    margin-bottom: 5px; /* Liste elemanları arası boşluk */
+}
+
+.detaylar ul li.active {
+    font-weight: bold; /* Aktif liste elemanı metin kalınlığı */
+}
+/* Detaylar bölümü tasarımı */
+.container.my-5 .col-md-6 {
+    
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container.my-5 h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.container.my-5 .lead {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.container.my-5 hr {
+    border-top: 2px solid #ddd;
+    margin: 30px 0;
+}
+
+.container.my-5 .btn-primary {
+    background-color: #ff7b00;
+    border-color: #ff7b00;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.container.my-5 .btn-primary:hover {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    transform: scale(1.05);
+}
+
+/* Card */
+.card {
+    border: 1px solid #ccc; /* Kart kenarlık rengi */
+    border-radius: 5px; /* Kart kenar yuvarlaklığı */
+    margin-bottom: 20px; /* Kart alt boşluk */
+}
+
+.card img {
+    border-top-left-radius: 5px; /* Kart resim köşe yuvarlaklığı */
+    border-top-right-radius: 5px; /* Kart resim köşe yuvarlaklığı */
+}
+
+.card-title {
+    font-size: 20px; /* Kart başlık font boyutu */
+    margin-bottom: 10px; /* Kart başlık alt boşluk */
+}
+
+.card-text {
+    color: #666; /* Kart metin rengi */
+}
+
+/* Kirala Butonu */
+.btn-kirala {
+    background-color: #007bff; /* Buton arka plan rengi */
+    color: #fff; /* Buton metin rengi */
+    border: none; /* Buton kenarlık */
+    border-radius: 5px; /* Buton kenar yuvarlaklığı */
+    padding: 10px 20px; /* Buton içerik boşluğu */
+    font-size: 16px; /* Buton font boyutu */
+}
+
+.btn-kirala:hover {
+    background-color: #0056b3; /* Buton üzerine gelindiğinde arka plan rengi */
+}
+
+/* Footer */
+
+
+
+
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif; /* Genel font ailesi */
+    background-color: #f8f9fa; /* Sayfa arka plan rengi */
+    color: #333; /* Genel metin rengi */
+}
+
+.container-fluid {
+    padding-right: 15px; /* Container içerik sağ boşluğu */
+    padding-left: 15px; /* Container içerik sol boşluğu */
+}
+
+.row {
+    margin-right: -15px; /* Satır sağ boşluk */
+    margin-left: -15px; /* Satır sol boşluk */
+    justify-content: space-between;
+}
+
+.row:last-child {
+    margin-bottom: 0; /* Son satırın alt boşluğunu kaldır */
+}
+
+/* Medya sorguları */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 200px; /* Küçük ekranlarda marka logosunun maksimum genişliği */
+    }
+}
+
+

@@ -1,0 +1,118 @@
+
+
+
+
+.main-container {
+    border: 3px solid #ff9100; /* Kenarlık kalınlığı ve rengi */
+    background-color: rgb(244, 244, 244); /* Arka plan rengi */
+    padding: 30px 50px; /* İçerik ile kenarlık arasındaki boşluk, sağdan ve soldan kısaltıldı */
+    border-radius: 25px; /* Kenar yuvarlaklığı */
+    margin: 20px auto; /* Ortalamak için üst ve alt boşluk */
+    max-width: 80%; /* Maksimum genişlik */
+    align-items: center;
+}
+.map-container {
+    width: 100%; /* Ebeveynin genişliğini kaplayacak */
+    max-width: 1200px; /* Maksimum genişlik, örneğin 1200px */
+    margin: 0 auto; /* Ortalamak için */
+}
+.map-container iframe {
+    width: 100%; /* Konteynerin genişliğini kaplayacak */
+    height: 300px; /* Yüksekliği burada sabit tutabilirsiniz */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Form grupları arasındaki boşluk */
+}
+
+.form-check-label {
+    margin-left: 5px; /* Form checkbox veya radio etiketleri ile metin arasındaki boşluk */
+}
+
+/* Buton stilleri */
+button[type="submit"] {
+    width: 100%; /* Genişlik */
+    padding: 10px; /* Dolgu */
+    background-color: #ff9100; /* Arka plan rengi */
+    color: #000000; /* Yazı rengi */
+    border: none; /* Kenarlık */
+    border-radius: 5px; /* Kenar yuvarlaklığı */
+    cursor: pointer; /* İşaretçi */
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+button[type="submit"]:hover {
+    background-color: #f8b051; /* Arka plan rengi - Hover durumunda */
+}
+
+.foto {
+ 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    height: 500px; 
+    width: 100%;
+
+   
+}
+
+
+
+
+
+
+
+/* Buton stilleri */
+.btn-primary {
+    background-color: #ff9100; /* Arka plan rengi */
+    color: #000000; /* Yazı rengi */
+    border: none; /* Kenar çizgisi */
+    border-radius: 5px; /* Köşe yuvarlaklığı */
+    padding: 10px 20px; /* Buton iç içe içerik */
+    text-align: center; /* Metin hizalama */
+    text-decoration: none; /* Metin altı çizgisi */
+    display: inline-block; /* Inline blok öğesi */
+    transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+.btn-primary:hover {
+    background-color: #ff7b00; /* Hover arka plan rengi */
+    color: #fff; /* Hover yazı rengi */
+    text-decoration: none; /* Hover metin altı çizgisi */
+}
+
+
+
+#blog {
+    background-color:#ffad42;
+}
+/* Kart stilleri */
+.card {
+    background-color: rgba(255, 255, 255, 0.9); /* Kart arka plan rengi (saydam beyaz) */
+    border: 3px solid #ff7b00;
+    border-radius: 10px; /* Kart kenar yuvarlaklığı */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);/* Kart gölgesi */
+    transition: all 1s ease;; /* Geçiş efekti */
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Kart üzerine gelindiğinde gölgeyi artır */
+}
+
+.card-body {
+    padding: 20px; /* Kart içerik boşluğu */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px; /* Kart resmi köşe yuvarlaklığı */
+    border-top-right-radius: 10px; /* Kart resmi köşe yuvarlaklığı */
+    max-width: 100%; /* Görselin maksimum genişliği */
+    height: auto; /* Otomatik yükseklik ayarı */
+}
+
+
+
+
+

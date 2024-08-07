@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Genel stil */
+h2 {
+    color: #000; /* Başlıkları tam siyah yapmak için */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form stilleri */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 50%;   
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sidebar .menu ul li.cikisyap {
+    position: absolute; /* Position it absolutely within the sidebar */
+    bottom: 15px; /* Adjust as needed */
+    width: calc(100% - 30px); /* Ensure it has full width minus padding */
+    
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+#icerik1 {
+    height: 100px;
+}
+
+.guncelle {
+    padding: 10px 20px;
+    background-color: #2bff00; /* Güncelle butonunu yeşil yapmak için */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.guncelle:hover {
+    background-color: #82ff5d;
+}
+
+.sil {
+    padding: 10px 20px;
+    background-color: #ff3333; /* Sil butonunu kırmızı yapmak için */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sil:hover {
+    background-color: #ff6666;
+}
+
+/* Content stilleri */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.rezervasyon-detay p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.rezervasyon-detay strong {
+    color: #000; /* Başlıkları tam siyah yapmak için */
+}
