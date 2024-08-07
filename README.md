@@ -1,4 +1,7 @@
-Araç Kiralama Web Sitesi
+
+#Araç Kiralama Web Sitesi
+
+
 Bu proje, araç kiralama sürecini kullanıcı dostu bir deneyimle sunan dinamik bir web sitesidir. Kullanıcılar siteye üye olduktan sonra kişisel hesaplarına giriş yapabilirler. Her kullanıcı kendi profil sayfasında kişisel bilgilerini görüntüleyebilir ve gerektiğinde güncelleyebilir. Ayrıca, geçmiş ve mevcut rezervasyonlarını detaylı bir şekilde inceleyebilir.
 
 Ana Özellikler:
