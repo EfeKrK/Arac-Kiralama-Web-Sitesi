@@ -151,41 +151,38 @@ $toplam_bedel = $arac['Arac_gunluk_ucret'] * $gunsayisi;
 
 <body>
        <!-- Navbar -->
-       <nav class="navbar navbar-expand-lg   #ff7b00 fixed-top">
-    <div class="container">
-    <a class="navbar-brand" href="#">
-                <img src="images/CarDuckLogo.png" style="max-width:300px;height: 120px" alt="Resim" class="logo">
-        <a class="navbar-brand" href="#">Araç Kiralama</a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Anasayfa |</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="hakkimizda.php">Hakkımızda |</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="iletisim.php">İletişim |</a>
-                </li>
-                
-                <?php echo $loginLink ;  ?>
-               
-                <?php echo $signupLink ; ?>
-                
-                 <?php echo $welcomeMessage ; ?>
-                 
-                <?php echo $profil; ?>
-            
-                <?php echo $logoutLink ; ?>
-            
-            </ul>
+       <div class="custom-border">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/CarDuckLogo.png" style="max-width: 300px; height: 120px;" alt="Resim" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimizda.php">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.php">İletişim</a>
+                    </li>
+                    
+                    <?php echo $loginLink; ?>
+                    <?php echo $signupLink; ?>
+                    <?php echo $welcomeMessage; ?>
+                    <?php echo $profil; ?>
+                    <?php echo $logoutLink; ?>
+                    
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>
 
 
 <nav class="detaylar">
